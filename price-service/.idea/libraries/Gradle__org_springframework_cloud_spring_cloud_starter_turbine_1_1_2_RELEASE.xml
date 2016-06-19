@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-turbine:1.1.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-turbine/1.1.2.RELEASE/956180f2d14bec39fc8e4a03f2e398340773f8e1/spring-cloud-starter-turbine-1.1.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-turbine/1.1.2.RELEASE/97fff8c53b566fde91c1d06ecf769e4085c2029f/spring-cloud-starter-turbine-1.1.2.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

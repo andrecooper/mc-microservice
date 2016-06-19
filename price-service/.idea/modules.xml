@@ -5,6 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cashbox.iml" filepath="$PROJECT_DIR$/.idea/modules/cashbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cashbox_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cashbox_main.iml" group="cashbox" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cashbox_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cashbox_test.iml" group="cashbox" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-service.iml" filepath="$PROJECT_DIR$/.idea/modules/config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-service_main.iml" group="config-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-service_test.iml" group="config-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dashboard-service.iml" filepath="$PROJECT_DIR$/.idea/modules/dashboard-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dashboard-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dashboard-service_main.iml" group="dashboard-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dashboard-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dashboard-service_test.iml" group="dashboard-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-service.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-service_main.iml" group="discovery-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-service_test.iml" group="discovery-service" />

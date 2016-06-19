@@ -21,6 +21,10 @@
     <bytecodeTargetLevel>
       <module name="cashbox_main" target="1.8" />
       <module name="cashbox_test" target="1.8" />
+      <module name="config-service_main" target="1.8" />
+      <module name="config-service_test" target="1.8" />
+      <module name="dashboard-service_main" target="1.8" />
+      <module name="dashboard-service_test" target="1.8" />
       <module name="discovery-service_main" target="1.8" />
       <module name="discovery-service_test" target="1.8" />
       <module name="price-service_main" target="1.8" />

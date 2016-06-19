@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.001s</div>
+<div class="counter">0.002s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">contextLoads</td>
-<td>0.001s</td>
+<td>0.002s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,35 +87,35 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:49:14.665 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.mcdonalds.DiscoveryApplicationTests]
-16:49:14.669 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-16:49:14.673 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-16:49:14.681 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.mcdonalds.DiscoveryApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
-16:49:14.704 [Test worker] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@b2c043b declaringClass = 'com.mcdonalds.DiscoveryApplicationTests', classes = '{class com.mcdonalds.DiscoveryApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
-16:49:14.709 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mcdonalds.DiscoveryApplicationTests]: class path resource [com/mcdonalds/DiscoveryApplicationTests-context.xml] does not exist
-16:49:14.710 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mcdonalds.DiscoveryApplicationTests]: class path resource [com/mcdonalds/DiscoveryApplicationTestsContext.groovy] does not exist
-16:49:14.710 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.mcdonalds.DiscoveryApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-16:49:14.711 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.mcdonalds.DiscoveryApplicationTests]
-16:49:14.714 [Test worker] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.mcdonalds.DiscoveryApplicationTests]: using defaults.
-16:49:14.727 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-16:49:14.734 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-16:49:14.734 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
-16:49:14.735 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b557771, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a3b503e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5282e646, org.springframework.test.context.support.DirtiesContextTestExecutionListener@121e56c7]
-16:49:14.737 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mcdonalds.DiscoveryApplicationTests]
-16:49:14.738 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mcdonalds.DiscoveryApplicationTests]
-16:49:14.738 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mcdonalds.DiscoveryApplicationTests]
-16:49:14.739 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mcdonalds.DiscoveryApplicationTests]
-16:49:14.741 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@36e80013 testClass = DiscoveryApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1b89884c testClass = DiscoveryApplicationTests, locations = '{}', classes = '{class com.mcdonalds.DiscoveryApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
-16:49:14.742 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mcdonalds.DiscoveryApplicationTests]
-16:49:14.742 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mcdonalds.DiscoveryApplicationTests]
-16:49:14.743 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@36e80013 testClass = DiscoveryApplicationTests, testInstance = com.mcdonalds.DiscoveryApplicationTests@69ee564f, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1b89884c testClass = DiscoveryApplicationTests, locations = '{}', classes = '{class com.mcdonalds.DiscoveryApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
-16:49:14.795 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-16:49:14.797 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-16:49:14.797 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-16:49:14.799 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
-2016-06-18 16:49:15.112  INFO 17880 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c681ffd: startup date [Sat Jun 18 16:49:15 EEST 2016]; root of context hierarchy
-2016-06-18 16:49:15.297  INFO 17880 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2016-06-18 16:49:15.323  INFO 17880 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$757c0047] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+<pre>15:55:09.817 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.mcdonalds.DiscoveryApplicationTests]
+15:55:09.833 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:55:09.848 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:55:09.859 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.mcdonalds.DiscoveryApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+15:55:09.882 [Test worker] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@b2c043b declaringClass = 'com.mcdonalds.DiscoveryApplicationTests', classes = '{class com.mcdonalds.DiscoveryApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+15:55:09.888 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mcdonalds.DiscoveryApplicationTests]: class path resource [com/mcdonalds/DiscoveryApplicationTests-context.xml] does not exist
+15:55:09.889 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mcdonalds.DiscoveryApplicationTests]: class path resource [com/mcdonalds/DiscoveryApplicationTestsContext.groovy] does not exist
+15:55:09.889 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.mcdonalds.DiscoveryApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:55:09.890 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.mcdonalds.DiscoveryApplicationTests]
+15:55:09.894 [Test worker] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.mcdonalds.DiscoveryApplicationTests]: using defaults.
+15:55:09.907 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+15:55:09.914 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+15:55:09.915 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+15:55:09.916 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b557771, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a3b503e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5282e646, org.springframework.test.context.support.DirtiesContextTestExecutionListener@121e56c7]
+15:55:09.919 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mcdonalds.DiscoveryApplicationTests]
+15:55:09.919 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mcdonalds.DiscoveryApplicationTests]
+15:55:09.920 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mcdonalds.DiscoveryApplicationTests]
+15:55:09.920 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mcdonalds.DiscoveryApplicationTests]
+15:55:09.923 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@36e80013 testClass = DiscoveryApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1b89884c testClass = DiscoveryApplicationTests, locations = '{}', classes = '{class com.mcdonalds.DiscoveryApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+15:55:09.923 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mcdonalds.DiscoveryApplicationTests]
+15:55:09.924 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mcdonalds.DiscoveryApplicationTests]
+15:55:09.926 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@36e80013 testClass = DiscoveryApplicationTests, testInstance = com.mcdonalds.DiscoveryApplicationTests@69ee564f, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1b89884c testClass = DiscoveryApplicationTests, locations = '{}', classes = '{class com.mcdonalds.DiscoveryApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+15:55:09.980 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+15:55:09.981 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+15:55:09.981 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+15:55:09.983 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+2016-06-19 15:55:10.323  INFO 9850 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c681ffd: startup date [Sun Jun 19 15:55:10 EEST 2016]; root of context hierarchy
+2016-06-19 15:55:10.500  INFO 9850 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-06-19 15:55:10.528  INFO 9850 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$757c0047] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -125,27 +125,27 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v1.3.5.RELEASE)
 
-2016-06-18 16:49:15.656  INFO 17880 --- [    Test worker] com.mcdonalds.DiscoveryApplicationTests  : No active profile set, falling back to default profiles: default
-2016-06-18 16:49:15.669  INFO 17880 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b28e56d: startup date [Sat Jun 18 16:49:15 EEST 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c681ffd
-2016-06-18 16:49:16.233  WARN 17880 --- [    Test worker] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
-2016-06-18 16:49:16.335  INFO 17880 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=24938849-b560-3428-988a-ecdada968ea9
-2016-06-18 16:49:16.343  INFO 17880 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2016-06-18 16:49:16.359  INFO 17880 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$757c0047] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2016-06-18 16:49:16.367  INFO 17880 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$1edb023d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2016-06-18 16:49:16.820  INFO 17880 --- [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2016-06-18 16:49:17.024  INFO 17880 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2016-06-18 16:49:17.025  INFO 17880 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2016-06-18 16:49:17.026  INFO 17880 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2016-06-18 16:49:17.026  INFO 17880 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2016-06-18 16:49:17.482  INFO 17880 --- [    Test worker] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2016-06-18 16:49:17.505  INFO 17880 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2016-06-18 16:49:17.505  INFO 17880 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2016-06-18 16:49:17.505  INFO 17880 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2016-06-18 16:49:17.506  INFO 17880 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2016-06-18 16:49:17.506  INFO 17880 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2016-06-18 16:49:17.506  INFO 17880 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2016-06-18 16:49:17.506  INFO 17880 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2016-06-18 16:49:17.586 ERROR 17880 --- [    Test worker] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+2016-06-19 15:55:10.875  INFO 9850 --- [    Test worker] com.mcdonalds.DiscoveryApplicationTests  : No active profile set, falling back to default profiles: default
+2016-06-19 15:55:10.889  INFO 9850 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b28e56d: startup date [Sun Jun 19 15:55:10 EEST 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c681ffd
+2016-06-19 15:55:11.465  WARN 9850 --- [    Test worker] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2016-06-19 15:55:11.557  INFO 9850 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=24938849-b560-3428-988a-ecdada968ea9
+2016-06-19 15:55:11.565  INFO 9850 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-06-19 15:55:11.581  INFO 9850 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$757c0047] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-06-19 15:55:11.589  INFO 9850 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$1edb023d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-06-19 15:55:12.055  INFO 9850 --- [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2016-06-19 15:55:12.468  INFO 9850 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2016-06-19 15:55:12.470  INFO 9850 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2016-06-19 15:55:12.470  INFO 9850 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2016-06-19 15:55:12.470  INFO 9850 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2016-06-19 15:55:12.726  INFO 9850 --- [    Test worker] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2016-06-19 15:55:12.747  INFO 9850 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2016-06-19 15:55:12.747  INFO 9850 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2016-06-19 15:55:12.747  INFO 9850 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2016-06-19 15:55:12.747  INFO 9850 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2016-06-19 15:55:12.747  INFO 9850 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2016-06-19 15:55:12.748  INFO 9850 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2016-06-19 15:55:12.748  INFO 9850 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2016-06-19 15:55:12.825 ERROR 9850 --- [    Test worker] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
 
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
@@ -319,8 +319,8 @@ Caused by: java.net.ConnectException: Connection refused
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
 	... 151 common frames omitted
 
-2016-06-18 16:49:17.589  WARN 17880 --- [    Test worker] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failure
-2016-06-18 16:49:17.591 ERROR 17880 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/192.168.4.223:-1 - was unable to refresh its cache! status = Cannot execute request on any known server
+2016-06-19 15:55:12.831  WARN 9850 --- [    Test worker] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failure
+2016-06-19 15:55:12.843 ERROR 9850 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DISCOVERY-SERVICE/192.168.4.223:discovery-service:-1 - was unable to refresh its cache! status = Cannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.4.8.jar:1.4.8]
@@ -459,31 +459,30 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
 
-2016-06-18 16:49:17.593  WARN 17880 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
-2016-06-18 16:49:17.611  INFO 17880 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2016-06-18 16:49:17.615  INFO 17880 --- [    Test worker] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2016-06-18 16:49:17.707  INFO 17880 --- [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2016-06-18 16:49:17.708  INFO 17880 --- [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
-2016-06-18 16:49:17.715  INFO 17880 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec CloudJacksonJson
-2016-06-18 16:49:17.716  INFO 17880 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec CloudJacksonJson
-2016-06-18 16:49:17.716  INFO 17880 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2016-06-18 16:49:17.716  INFO 17880 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2016-06-18 16:49:17.835  INFO 17880 --- [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
-2016-06-18 16:49:17.843  INFO 17880 --- [    Test worker] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2016-06-18 16:49:17.844  INFO 17880 --- [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2016-06-18 16:49:18.581  INFO 17880 --- [    Test worker] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@3b28e56d: startup date [Sat Jun 18 16:49:15 EEST 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c681ffd] and template loader path [classpath:/templates/]
-2016-06-18 16:49:18.688  WARN 17880 --- [    Test worker] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
-2016-06-18 16:49:18.693  WARN 17880 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2016-06-18 16:49:18.693  INFO 17880 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2016-06-18 16:49:18.700  WARN 17880 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2016-06-18 16:49:18.700  INFO 17880 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2016-06-18 16:49:18.913  INFO 17880 --- [    Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
-2016-06-18 16:49:18.918  INFO 17880 --- [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
-2016-06-18 16:49:18.918  INFO 17880 --- [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
-2016-06-18 16:49:18.919  INFO 17880 --- [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
-2016-06-18 16:49:18.931  INFO 17880 --- [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2016-06-18 16:49:18.932  INFO 17880 --- [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2016-06-18 16:49:18.939  INFO 17880 --- [    Test worker] com.mcdonalds.DiscoveryApplicationTests  : Started DiscoveryApplicationTests in 4.138 seconds (JVM running for 4.796)
+2016-06-19 15:55:12.860  WARN 9850 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2016-06-19 15:55:12.867  INFO 9850 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2016-06-19 15:55:12.875  INFO 9850 --- [    Test worker] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2016-06-19 15:55:12.952  INFO 9850 --- [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2016-06-19 15:55:12.953  INFO 9850 --- [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2016-06-19 15:55:12.961  INFO 9850 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec CloudJacksonJson
+2016-06-19 15:55:12.962  INFO 9850 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec CloudJacksonJson
+2016-06-19 15:55:12.963  INFO 9850 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2016-06-19 15:55:12.964  INFO 9850 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2016-06-19 15:55:13.061  INFO 9850 --- [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2016-06-19 15:55:13.069  INFO 9850 --- [    Test worker] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2016-06-19 15:55:13.070  INFO 9850 --- [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2016-06-19 15:55:13.852  INFO 9850 --- [    Test worker] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@3b28e56d: startup date [Sun Jun 19 15:55:10 EEST 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c681ffd] and template loader path [classpath:/templates/]
+2016-06-19 15:55:13.966  WARN 9850 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2016-06-19 15:55:13.966  INFO 9850 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-06-19 15:55:13.972  WARN 9850 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2016-06-19 15:55:13.972  INFO 9850 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-06-19 15:55:14.182  INFO 9850 --- [    Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-06-19 15:55:14.188  INFO 9850 --- [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2016-06-19 15:55:14.188  INFO 9850 --- [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2016-06-19 15:55:14.189  INFO 9850 --- [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2016-06-19 15:55:14.199  INFO 9850 --- [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2016-06-19 15:55:14.200  INFO 9850 --- [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2016-06-19 15:55:14.203  INFO 9850 --- [    Test worker] com.mcdonalds.DiscoveryApplicationTests  : Started DiscoveryApplicationTests in 4.218 seconds (JVM running for 5.411)
 </pre>
 </span>
 </div>
@@ -495,7 +494,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.13</a> at Jun 18, 2016 4:49:19 PM</p>
+<a href="http://www.gradle.org">Gradle 2.13</a> at Jun 19, 2016 3:55:14 PM</p>
 </div>
 </div>
 </body>
