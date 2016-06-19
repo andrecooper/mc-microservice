@@ -9,7 +9,6 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 @EnableHystrix
 @SpringBootApplication
 @EnableDiscoveryClient
-@RefreshScope
 public class PriceserviceApplication {
 
 	public static void main(String[] args) {

@@ -27,6 +27,8 @@
       <module name="dashboard-service_test" target="1.8" />
       <module name="discovery-service_main" target="1.8" />
       <module name="discovery-service_test" target="1.8" />
+      <module name="log-service_main" target="1.8" />
+      <module name="log-service_test" target="1.8" />
       <module name="price-service_main" target="1.8" />
       <module name="price-service_test" target="1.8" />
       <module name="report-service_main" target="1.8" />

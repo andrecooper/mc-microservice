@@ -2,6 +2,7 @@ package com.mcdonalds.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,6 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
+@RefreshScope
 public class PriceController{
 
     @Value("${price.discount}")
@@ -24,7 +26,7 @@ public class PriceController{
         priceMap.put("cola", 14.0 );
         priceMap.put("muffin",23.5 );
         priceMap.put("frenchFires",13.2 );
-        priceMap.put("nuiggets", 25.0 );
+        priceMap.put("nuggets", 25.0 );
         if (Math.random() < 0.2) throw new NullPointerException("Huston we have a problem!!");
         return priceMap;
     }

@@ -14,6 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-service.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-service_main.iml" group="discovery-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-service_test.iml" group="discovery-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/log-service.iml" filepath="$PROJECT_DIR$/.idea/modules/log-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/log-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/log-service_main.iml" group="log-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/log-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/log-service_test.iml" group="log-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/price-service.iml" filepath="$PROJECT_DIR$/.idea/modules/price-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/price-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/price-service_main.iml" group="price-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/price-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/price-service_test.iml" group="price-service" />
