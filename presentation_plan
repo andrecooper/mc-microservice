@@ -1,0 +1,9 @@
+- microservices
+	- java 8
+	- eureka
+	- histryx
+	- zipkin
+- code generation
+- lombok
+- jhipster
+
