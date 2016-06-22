@@ -1,9 +1,22 @@
-- microservices
-	- java 8
-	- eureka
-	- histryx
-	- zipkin
+Items to conver
+-  Intro
+	-
 - code generation
-- lombok
-- jhipster
+	- yo
+	- lombok
+	- jhipster
+- microservices
+	- eureka
+	- load balancing
+	- histryx
+	- config server
+- how can be improved 
+	- docker
+	- bdd with Spock
+	- 
+- questinons
 
+
+
+add project diagram
+add short description about mc-serv-component

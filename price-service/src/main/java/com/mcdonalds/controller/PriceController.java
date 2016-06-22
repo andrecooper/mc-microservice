@@ -35,5 +35,4 @@ public class PriceController{
         Map<String, Double> cachedPrices = new HashMap<>();
         return cachedPrices;
     }
-
 }
