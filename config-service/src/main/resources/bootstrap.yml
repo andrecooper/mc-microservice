@@ -1,10 +1,14 @@
 spring:
   application:
     name: config-service
+  profiles:
+     active: native
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/andrecooper/mc-microservice/tree/master/config-service/src/main/resources
+        native:
+        searchLocations: classpath:configs/
+
+
 server:
   port: 8888

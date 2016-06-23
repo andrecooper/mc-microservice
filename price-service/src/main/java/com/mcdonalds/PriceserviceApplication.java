@@ -11,7 +11,7 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 @EnableDiscoveryClient
 public class PriceserviceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(PriceserviceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(PriceserviceApplication.class, args);
+    }
 }
